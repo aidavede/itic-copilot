@@ -25,17 +25,17 @@
     },
 
     "replace_html_view" : {
-        "message" : "Visualiser",
-        "description" : "Button that let's users view a file in the browser instead of downloading it."
+        "message" : "Voir",
+        "description" : "Button that lets users view a file in the browser instead of downloading it."
     },
     "replace_html_download_subject" : {
-        "message" : "Tout télécharger",
-        "description" : "Button that let's users download all the files from a subject."
+        "message" : "Télécharger",
+        "description" : "Button that lets users download all the files from a subject."
     },
 
     "progress_popup_title" : {
-        "message" : "Téléchargement $SUBJECT$...",
-        "description" : "This will appear on screen during the subject download as the TITLE.",
+        "message" : "Téléchargement de $SUBJECT$...",
+        "description" : "This will appear on-screen during the subject download as the TITLE.",
         "placeholders" : {
             "subject" : {
                 "content" : "$1",
@@ -44,8 +44,8 @@
         }
     },
     "progress_popup_fetching" : {
-        "message" : "Récupération $URL$...",
-        "description" : "This will appear on screen during the subject download as the subtitle.",
+        "message" : "Récupération de $URL$...",
+        "description" : "This will appear on-screen during the subject download as the subtitle.",
         "placeholders" : {
             "url" : {
                 "content" : "$1",
@@ -54,8 +54,8 @@
         }
     },
     "progress_popup_compressing" : {
-        "message" : "Compression $FILE$...",
-        "description" : "This will appear on screen during the subject download as the subtitle.",
+        "message" : "Compression de $FILE$...",
+        "description" : "This will appear on-screen during the subject download as the subtitle.",
         "placeholders" : {
             "file" : {
                 "content" : "$1",
@@ -75,7 +75,7 @@
         }
     },
     "error_downloading_subject" : {
-        "message" : "Une erreur s'est produite lors du téléchargement $URL$.",
+        "message" : "Une erreur s'est produite lors du téléchargement de $URL$.",
         "description" : "Message shown when an error occurs when downloading a subject.",
         "placeholders" : {
             "url" : {
