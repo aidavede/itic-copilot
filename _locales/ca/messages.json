@@ -10,15 +10,15 @@
 
 
     "ocw_replacer_view" : {
-        "message" : "Veure",
+        "message" : "Visualització",
         "description" : "Button that lets users view a file in the browser instead of downloading it."
     },
     "ocw_replacer_download_all" : {
-        "message" : "Descarregar tot",
+        "message" : "Baixa-ho tot",
         "description" : "Button that lets users download all the files from a subject or folder."
     },
     "ocw_replacer_not_available" : {
-        "message" : "Assignatura no disponible a l'OCW",
+        "message" : "Aquesta assignatura no està disponible a l'OCW",
         "description" : "Disclaimer shown instead of 'Download all' for when a subject isn't registered in the OCW website."
     },
 
@@ -29,7 +29,7 @@
         "description" : "Used as an OK to window prompts."
     },
     "ocw_downloader_close" : {
-        "message" : "Tancar",
+        "message" : "Tanca",
         "description" : "Used as a message to exit PopUps."
     },
     "ocw_downloader_error" : {
@@ -41,14 +41,14 @@
         "description" : "Placeholder for files without name."
     },
     "ocw_downloader_cancel" : {
-        "message" : "Cancel·lar",
+        "message" : "Cancel·la",
         "description" : "Message used to cancel a folder, subject or quadrimester download."
     },
 
 
 
     "ocw_downloader_downloading_msg" : {
-        "message" : "Descarregant $TITLE$...",
+        "message" : "S'està baixant $TITLE$...",
         "description" : "This will appear on-screen during the download as the TITLE.",
         "placeholders" : {
             "title" : {
@@ -58,7 +58,7 @@
         }
     },
     "ocw_downloader_fetching_msg" : {
-        "message" : "Carregant $URL$...",
+        "message" : "S'està carregant $URL$...",
         "description" : "This will appear on-screen during the download as the subtitle.",
         "placeholders" : {
             "url" : {
@@ -68,7 +68,7 @@
         }
     },
     "ocw_downloader_compressing_msg" : {
-        "message" : "Comprimint $FILE$...",
+        "message" : "S'està comprimint $FILE$...",
         "description" : "This will appear on-screen during the download as the subtitle.",
         "placeholders" : {
             "file" : {
@@ -81,7 +81,7 @@
 
 
     "ocw_downloader_success_msg" : {
-        "message" : "S'ha descarregat correctament `$TITLE$`.",
+        "message" : "`$TITLE$` s'ha baixat correctament.",
         "description" : "Message shown when a subject/folder/quadrimester download is completed.",
         "placeholders" : {
             "title" : {
@@ -91,7 +91,7 @@
         }
     },
     "ocw_downloader_error_msg" : {
-        "message" : "S'ha produit un error mentre es descarregava $URL$.",
+        "message" : "S'ha produït un error mentre es descarregava $URL$.",
         "description" : "Message shown when an error occurs when downloading a file.",
         "placeholders" : {
             "url" : {
@@ -101,7 +101,7 @@
         }
     },
     "ocw_downloader_empty_subject_msg" : {
-        "message" : "No hi ha cap fitxer per a descarregar!",
+        "message" : "No hi ha cap fitxer per baixar!",
         "description" : "Message shown when the subject/quadrimester/folder that we want to download is empty."
     },
 
@@ -115,7 +115,7 @@
     },
 
     "schedule_picker_save_btn" : {
-        "message" : "Guardar horari i veure",
+        "message" : "Desa i visualitza",
         "description" : "Button clicked once a schedule is selected."
     },
     "schedule_picker_setup_title" : {
@@ -123,19 +123,19 @@
         "description" : "Title of the alert describing what to do."
     },
     "schedule_picker_setup_info" : {
-        "message" : "Deixa que iTIC Copilot guardi les teves assignatures per a poder mostrar-te l'horari personalitzat.<br/>Sempre podràs modificar les teves assignatures en la secció d'ajustaments.",
+        "message" : "Deixa que iTIC Copilot desi les teves assignatures per poder mostrar-te un horari personalitzat.<br/>Podràs tornar a modificar les teves assignatures a la secció de configuració.",
         "description" : "Text of the alert describing what to do. DO NOT remove the <br/>, nor put spaces in between."
     },
     "schedule_picker_confirm_title" : {
-        "message" : "Guarda l'horari",
+        "message" : "Desa l'horari",
         "description" : "Title for schedule save confirm dialog."
     },
     "schedule_picker_confirm_text" : {
-        "message" : "Vols que iTIC Copilot guardi aquest horari?",
+        "message" : "Vols que iTIC Copilot desi aquest horari?",
         "description" : "Text for schedule save confirm dialog."
     },
     "schedule_picker_done_text" : {
-        "message" : "S'ha guardat el teu horari. Clica en el botó de sota per a veure'l.",
+        "message" : "S'ha desat el teu horari. Fes clic al botó de sota per visualitzar-lo.",
         "description" : "Once a schedule is saved, info message."
     },
     "schedule_picker_see_schedule" : {
@@ -165,7 +165,7 @@
         "description" : "Username text of the credentials request pop-up."
     },
     "itic_copilot_credentials_password" : {
-        "message" : "Introdueix la contrassenya de $USER$:",
+        "message" : "Introdueix la contrasenya de $USER$:",
         "description" : "Password text of the credentials request pop-up.",
         "placeholders" : {
             "user" : {
@@ -176,11 +176,11 @@
     },
 
     "escriny_edit_text" : {
-        "message" : "Editar",
+        "message" : "Edita",
         "description" : "Title of the edit file section."
     },
     "escriny_fetching_error" : {
-        "message" : "Ha succeït un error mentre es carregava l'enllaç.",
+        "message" : "S'ha produït un error en carregar l'enllaç.",
         "description" : "Explanation of an ajax error."
     },
     "escriny_commit_title" : {
@@ -198,7 +198,7 @@
         }
     },
     "escriny_confirm_continue" : {
-        "message" : "Continuar",
+        "message" : "Continua",
         "description" : "A continue/ok/confirm string."
     },
     "escriny_commit_completed_title" : {
@@ -206,7 +206,7 @@
         "description" : "Title of the success pop-up."
     },
     "escriny_commit_completed_text" : {
-        "message" : "S'ha completat correctament el commit.<br/>Tingues present que el contingut de la web pot tardar diversos minuts a actualitzar-se.",
+        "message" : "S'ha completat correctament el commit.<br/>Tingues present que el contingut del web pot tardar diversos minuts a actualitzar-se.",
         "description" : "Text of the success pop-up. DO NOT touch the '<br/>' nor put spaces in between."
     },
     "escriny_commit_message_placeholder" : {
@@ -214,19 +214,19 @@
         "description" : "Placeholder of the input area in the commit message."
     },
     "escriny_show_advanced_settings" : {
-        "message" : "Mostrar opcions avançades.",
+        "message" : "Mostra opcions avançades.",
         "description" : "Button to show advanced settings."
     },
     "escriny_hide_advanced_settings" : {
-        "message" : "Amagar opcions avançades.",
+        "message" : "Amaga opcions avançades.",
         "description" : "Button to hide advanced settings."
     },
     "escriny_load_file_placeholder" : {
-        "message" : "Carregant el fitxer...",
+        "message" : "S'està carregant el fitxer...",
         "description" : "Placeholder for when the file is bein loaded."
     },
     "escriny_load_file_error" : {
-        "message" : "No s'ha pogut carregar l'arxiu. Recarrega la pàgina per a tornar-ho a intentar.",
+        "message" : "No s'ha pogut carregar el fitxer. Recarrega la pàgina per tornar-ho a provar.",
         "description" : "Error message for when the file could not be loaded."
     },
 
@@ -235,7 +235,7 @@
         "description" : "Title of the links section in the user interface."
     },
     "ui_landpage_links_description" : {
-        "message" : "Ves als següents llocs web per a descobrir el potencial de l'extensió!",
+        "message" : "Ves als següents llocs web per descobrir el potencial de l'extensió!",
         "description" : "Text (or description) of the links section in the user interface."
     },
     "ui_landpage_links_atenea" : {
@@ -280,7 +280,7 @@
     },
 
     "ui_settings_title" : {
-        "message" : "Ajustaments",
+        "message" : "Configuració",
         "description" : "Settings button and title name."
     },
     "ui_about_title" : {
@@ -289,7 +289,7 @@
     },
 
     "ui_settings_reload_hint" : {
-        "message" : "Recarrega les pàgines obertes per a aplicar els canvis.",
+        "message" : "Recarrega les pàgines obertes per aplicar els canvis.",
         "description" : "Disclaimer on top of the settings menu."
     },
     "ui_settings_general_title" : {
@@ -297,7 +297,7 @@
         "description" : "Title of the general section on the settings menu."
     },
     "ui_settings_save_upc_credentials" : {
-        "message" : "Guardar les credencials UPC",
+        "message" : "Guarda les credencials UPC",
         "description" : "Option to save upc credentials in the settings menu."
     },
     "ui_settings_username" : {
@@ -305,7 +305,7 @@
         "description" : "Username prompt."
     },
     "ui_settings_password" : {
-        "message" : "Contrassenya:",
+        "message" : "Contrasenya:",
         "description" : "Password prompt."
     },
     "ui_settings_username_placeholder" : {
@@ -313,11 +313,11 @@
         "description" : "Format of the upc username. 'name' and 'surname' can be trnanslated."
     },
     "ui_settings_password_disclaimer" : {
-        "message" : "No guardarem <b>MAI</b> les contrassenyes al núvol ni les compartirem.",
+        "message" : "No guardarem <b>MAI</b> les contrasenyes al núvol ni les compartirem.",
         "description" : "Disclaimer for passwords policy. Please keep the <b> and </b> keys."
     },
     "ui_settings_sync_settings" : {
-        "message" : "Sincronitzar els ajustaments",
+        "message" : "Sincronitza la configuració",
         "description" :"Option to permit settings sync among devices."
     },
     "ui_settings_new" : {
@@ -325,47 +325,47 @@
         "description" : "Disclaimer for when a setting is new."
     },
     "ui_settings_autologin" : {
-        "message" : "Auto-login a les webs UPC",
+        "message" : "Inici de sessió automàtic als webs UPC",
         "description" : "Option to allow auto-login on some pages."
     },
     "ui_settings_ocw_show_embedded" : {
-        "message" : "Veure enllaços ecastats",
+        "message" : "Visualitza enllaços ecastats",
         "description" : "Option to show embedded links on the OCW page."
     },
     "ui_settings_ocw_show_landpage" : {
-        "message" : "Mostrar inici personalitzat",
+        "message" : "Mostra inici personalitzat",
         "description" : "Option to show a customized landing page on the OCW website."
     },
     "ui_settings_autologin_hint" : {
-        "message" : "ha d'estar habilitat per a disposar de l'auto-login.",
+        "message" : "ha d'estar habilitat per disposar de l'inici de sessió automàtic.",
         "description" : "Some settings must be enabled... the beginning of the sentence is missing on purpose."
     },
     "ui_settings_comming_soon" : {
-        "message" : "Més opcions poperament!",
+        "message" : "Més opcions pròximament!",
         "description" : "Placeholder for when there aren't any options."
     },
     "ui_settings_escriny_edit_files" : {
-        "message" : "Editar fitxers al navegador amb commits",
+        "message" : "Edita fitxers al navegador amb commits",
         "description" : "Option to permit the edition of files on the escriny website."
     },
     "ui_settings_escriny_show_landpage" : {
-        "message" : "Mostrar inici personalitzat",
+        "message" : "Mostra inici personalitzat",
         "description" : "Option to show a customized landing page on escriny's website."
     },
     "ui_settings_overleaf_commit_to_escriny" : {
-        "message" : "Fes commits de LaTeX a escriny",
+        "message" : "Fes commits de LaTeX a Escriny",
         "description" : "Option to enable a 'Commit to escriny' button on overleaf's website."
     },
     "ui_settings_reset_schedule" : {
-        "message" : "Canviar horaris",
+        "message" : "Canvia els horaris",
         "description" : "Button used to choose another set of subjects."
     },
     "ui_settings_no_schedule_hint" : {
-        "message" : "No tens cap assignatura guardada. Clica en aquest botó per a escollir un grup d'assignatures.",
+        "message" : "No tens cap assignatura desada. Fes clic a aquest botó per escollir un grup d'assignatures.",
         "description" : "Text of the button used to choose another set of subjects."
     },
     "ui_settings_cg_language" : {
-        "message" : "Idioma preferit:",
+        "message" : "Idioma de preferència:",
         "description" : "Text prompting the prefered language."
     },
     "ui_settings_cg_cat" : {
@@ -381,7 +381,7 @@
         "description" : "Name of the english language."
     },
     "ui_settings_advanced_title" : {
-        "message" : "Avançat",
+        "message" : "Avançada",
         "description" : "Title of the advanced settings section."
     },
     "ui_settings_easter_eggs" : {
@@ -393,7 +393,7 @@
         "description" : "Text prompting the gmail url in the settings menu."
     },
     "ui_settings_restore" : {
-        "message" : "Recuperar la configuració inicial",
+        "message" : "Recupera la configuració per defecte",
         "description" : "Button used to restore all the settings to its default values."
     },
     "ui_settings_restore_done" : {
@@ -401,7 +401,7 @@
         "description" : "Done message showing when settings are reset."
     },
     "ui_settings_saved_subjects" : {
-        "message" : "Assignatures guardades",
+        "message" : "Assignatures desades",
         "description" : "Title of the list of saved subjects."
     },
 
@@ -410,7 +410,7 @@
         "description" : "Made by $NAME$"
     },
     "ui_about_collab_by" : {
-        "message" : "Interfície per ",
+        "message" : "Interfície de ",
         "description" : "UI/Interface by $NAME$."
     },
     "ui_about_liscence_title" : {
@@ -418,7 +418,7 @@
         "description" : "Title of the liscence section in the about page."
     },
     "ui_about_liscence_text" : {
-        "message" : "Aquesta extensió forma part d'un projecte de codi obert, amb la llicència GNU General Public Liscence V3 (GPL3). Es pot trobar més informació",
+        "message" : "Aquesta extensió forma part d'un projecte de codi obert, amb la llicència GNU General Public Liscence V3 (GPL3). Pots trobar més informació",
         "description" : "This text is continued in the 'ui_about_liscence_link' key."
     },
     "ui_about_liscence_link" : {
@@ -430,7 +430,7 @@
         "description" : "Title of the privacy section in the about page."
     },
     "ui_about_privacy_text" : {
-        "message" : "Tal i com podeu comprovar amb els vostres ulls (perquè és un projecte de codi obert), no fem res amb les vostres dades. Es poden guardar contrassenyes, però sempre en el propi ordinador.",
+        "message" : "Tal i com pots comprovar amb els ulls (perquè és un projecte de codi obert), no fem res amb les teves dades. Pots guardar contrasenyes, però sempre en el propi ordinador.",
         "description" : "Text of the privacy section in the about page."
     },
     "ui_about_contribute_title" : {
@@ -438,7 +438,7 @@
         "description" : "Contribution title on the about page."
     },
     "ui_about_contribute_text" : {
-        "message" : "Es poden reportar errors, enviar suggeriments o contribuir d'altres maneres a iTIC Copilot a través del",
+        "message" : "Pots reportar errors, enviar suggeriments o contribuir d'altres maneres a iTIC Copilot a través del",
         "description" : "This text is continued in the 'ui_about_contribute_link' key."
     },
     "ui_about_contribute_link" : {
@@ -460,11 +460,11 @@
         "description" : "Links to each subject's course guide."
     },
     "course_guides_change_subjects" : {
-        "message" : "Canviar assignatures",
+        "message" : "Canvia les assignatures",
         "description" : "Button for when we need to change the subjects."
     },
     "course_guides_no_subjects" : {
-        "message" : "No tens cap assignatura guardada. Escull les teves assignatures clicant al següent botó.",
+        "message" : "No tens cap assignatura desada. Escull les teves assignatures fent clic al botó següent.",
         "description" : "Disclaimer encouraging the user to select some subjects."
     },
     "course_guides_your_subjects" : {
@@ -481,15 +481,15 @@
         "description" : "Title for the private projects section on escriny's landing page."
     },
     "escriny_your_projects_description" : {
-        "message" : "Repositoris privats als quals hi tens accés.",
+        "message" : "Repositoris privats als quals tens accés.",
         "description" : "Small description for private projects section on escriny's landing page."
     },
     "escriny_your_projects_loading" : {
-        "message" : "Carregant ...",
+        "message" : "S'està carregant ...",
         "description" : "Placeholder for when some content is being loaded."
     },
     "escriny_your_projects_none" : {
-        "message" : "Encara no tens projectes privats.",
+        "message" : "Encara no tens cap projecte privat.",
         "description" : "Placeholder for when there isn't any private projects yet."
     },
 
@@ -498,7 +498,7 @@
         "description" : "Button that appears on the header bar of overleaf's GUI."
     },
     "overleaf_no_tex_title" : {
-        "message" : "Fitxer TEX no trobat",
+        "message" : "No s'ha trobat el fitxer TEX",
         "description" : "Title of an error when attempting to commit."
     },
     "overleaf_no_tex_description" : {
@@ -506,7 +506,7 @@
         "description" : "Description of the error when attempting to commit."
     },
     "overleaf_bad_auth_or_path" : {
-        "message" : "Ha succeït un error durant el commit. Comprova les dades que has introduït.",
+        "message" : "S'ha produït un error durant el commit. Comprova les dades que has introduït.",
         "description" : "Error message when the first request fails."
     },
     "overleaf_repo_name_prompt" : {
@@ -514,7 +514,7 @@
         "description" : "Text for the repo name prompt on Overleaf."
     },
     "overleaf_file_path_prompt" : {
-        "message" : "Nom i ubicació de l'arxiu (si no existeix es crearà)",
+        "message" : "Nom i ubicació del fitxer (si no existeix es definirà automàticament)",
         "description" : "Text for the filename prompt on Overleaf."
     },
     "overleaf_commit_message_prompt" : {

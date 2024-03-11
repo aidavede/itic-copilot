@@ -313,7 +313,7 @@
         "description" : "Format of the upc username. 'name' and 'surname' can be trnanslated."
     },
     "ui_settings_password_disclaimer" : {
-        "message" : "Passwords will be <b>NEVER</b> stored in plain text, nor shared or synced.",
+        "message" : "Passwords will <b>NEVER</b> be stored in plain text, nor shared or synced.",
         "description" : "Disclaimer for passwords policy. Please keep the <b> and </b> keys."
     },
     "ui_settings_sync_settings" : {
@@ -365,7 +365,7 @@
         "description" : "Text of the button used to choose another set of subjects."
     },
     "ui_settings_cg_language" : {
-        "message" : "Prefered language:",
+        "message" : "Preferred language:",
         "description" : "Text prompting the prefered language."
     },
     "ui_settings_cg_cat" : {
