@@ -110,7 +110,7 @@
         "description" : "Title of the schedule load page."
     },
     "schedule_loader_information" : {
-        "message" : "Your schedule is being loaded. This will take less than 2 seconds ...",
+        "message" : "Your schedule is being loaded. This will take less than 2 seconds...",
         "description" : "Information of the schedule load page."
     },
 
@@ -210,7 +210,7 @@
         "description" : "Text of the success pop-up. DO NOT touch the '<br/>' nor put spaces in between."
     },
     "escriny_commit_message_placeholder" : {
-        "message" : "Commit message ...",
+        "message" : "Commit message...",
         "description" : "Placeholder of the input area in the commit message."
     },
     "escriny_show_advanced_settings" : {
@@ -434,11 +434,11 @@
         "description" : "Text of the privacy section in the about page."
     },
     "ui_about_contribute_title" : {
-        "message" : "What to contribute?",
+        "message" : "How can I contribute?",
         "description" : "Contribution title on the about page."
     },
     "ui_about_contribute_text" : {
-        "message" : "You can report bugs, suggestions, or contribute to the iTIC Copilot extension by going in the",
+        "message" : "You can report bugs, suggest, or contribute to the iTIC Copilot extension by going in the",
         "description" : "This text is continued in the 'ui_about_contribute_link' key."
     },
     "ui_about_contribute_link" : {
@@ -485,7 +485,7 @@
         "description" : "Small description for private projects section on escriny's landing page."
     },
     "escriny_your_projects_loading" : {
-        "message" : "Loading ...",
+        "message" : "Loading...",
         "description" : "Placeholder for when some content is being loaded."
     },
     "escriny_your_projects_none" : {
@@ -514,7 +514,7 @@
         "description" : "Text for the repo name prompt on Overleaf."
     },
     "overleaf_file_path_prompt" : {
-        "message" : "File name and path (if file doesn't exist it will be created)",
+        "message" : "File name and path (if the file doesn't exist it will be created)",
         "description" : "Text for the filename prompt on Overleaf."
     },
     "overleaf_commit_message_prompt" : {
